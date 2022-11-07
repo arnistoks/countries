@@ -1,0 +1,59 @@
+.country {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: orange;
+    border: none;
+}
+
+.country:hover {
+    background-color: yellow;
+    box-shadow: inset 0 0 30px orange;
+}
+
+.country:active {
+    background-color: orange;
+    box-shadow: inset 0 0 30px yellow;
+}
+
+.countryplus {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+}
+
+.countryplus:hover {
+    background-color: yellow;
+    box-shadow: inset 0 0 30px orange;
+}
+
+.countryplus:active {
+    background-color: orange;
+    box-shadow: inset 0 0 30px yellow;
+}
+
+.container {
+    font-size: 15px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: orange;
+    padding-bottom: 20px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.flag {
+    font-size: 200px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
